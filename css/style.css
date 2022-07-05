@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Inter';
+    background: #fff;
+    margin: 0 auto;
+}
+
+/* banner Part css */
+#banner {
+
+    background-image: url("../images/donation2.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+
+}
+
+.banner-body {
+    background: linear-gradient(360deg, #121212 15%, rgba(137, 34, 14, 0.4) 100%);
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+
+.banner-body h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fefffe;
+}
+
+.banner-body p {
+    margin: 20px 20px 50px;
+
+    font-size: 18px;
+    font-style: normal;
+}
+
+.banner-body .donate-now-button {
+    font-family: 'Poppins';
+    color: #fff;
+    font-style: normal;
+    background-color: #FF5959;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* banner Part css End */
+
+/* Donate Money part */
+#donate-money {
+
+    background-color: #fff;
+}
+
+.donate-money-body {
+    background-color: #fff;
+    color: #121212;
+    text-align: center;
+    padding: 100px;
+}
+
+.donate-money-body h1 {
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.donate-money-body p {
+    color: #707070;
+    font-size: 15px;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.donate-money-body .money-list {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.donate-money-body .money-list .taka {
+    background-color: #FAFAFA;
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+
+}
+
+.donate-money-body .money-list .taka-selected {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+
+}
+
+
+.others-taka-input {
+    width: 60%;
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid #DADADA;
+    text-align: center;
+}
+
+
+.donate-money-body .button {
+    margin-top: 20px;
+}
+
+.donate-money-body .donate-now-button {
+
+    font-family: 'Poppins';
+    color: #fff;
+    font-style: normal;
+    background-color: #FF5959;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+
+/* Donate Money part End */

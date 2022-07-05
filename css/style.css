@@ -136,3 +136,28 @@ body {
 
 
 /* Donate Money part End */
+
+
+/* Footer Part */
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #0B0D17;
+    text-align: center;
+    color: #fff;
+}
+
+footer .humble-text {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #FF5959;
+}
+
+footer .text {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Footer Part End*/

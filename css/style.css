@@ -333,15 +333,22 @@ body {
     background-color: #D9D9D9;
     padding: 20px;
     color: #AA9F9F;
+    font-weight: bold;
     width: 40%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .news-letter-body .box .email-submit-button {
     border: none;
     background-color: #FF5959;
-    padding: 20px;
+    padding: 20px 30px;
     color: #fff;
+    font-weight: bold;
     width: 20%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -5px;
 }
 
 
